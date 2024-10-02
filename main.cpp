@@ -2,21 +2,20 @@
 
 class Car {
     private:
-    std::string marka, model;
+    std::string make, model;
     int year;
     public:
     void displayInfo() {
-        std::cout << "model: " << marka << ' ' << model << "\nrok produkcji: " << year;
+        std::cout << "model: " << make << ' ' << model << "\nrok produkcji: " << year;
     }
-    Car(std::string marka, std::string model, int rok) {
-        this->marka=marka;
+    Car(std::string make, std::string model, int year) {
+        this->make=make;
         this->model=model;
-        this->year=rok;
+        this->year=year;
     }
 };
 
 int main() {
     Car car1("test", "test", 2000);
     car1.displayInfo();
-    return 0;
 }
