@@ -12,7 +12,7 @@ class Car {
     }
     //calculate and display car age
     void getCarAge() {
-        std::cout << "\nCar age: << currentYear - year; 
+        std::cout << "\nCar age:" << currentYear - year; 
     }
     //check if make, model and year are equal
     bool isSameCar(Car otherCar) {
