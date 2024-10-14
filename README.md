@@ -63,8 +63,10 @@ Pod koniec tego laboratorium będziesz w stanie:
 
 Po ukończeniu zadań, zastanów się nad następującymi pytaniami:
   1. Dlaczego ważne jest używanie specyfikatorów dostępu private dla atrybutów?
+     Żeby nie można było modyfikować tych atrybutów z zewnątrz
   2. Co się stanie, jeśli zmienisz specyfikator dostępu atrybutów na public? Spróbuj to zrobić i zaobserwuj zmiany.
+     Będzie można modyfikować ten atrybut z każdego miejsca w kodzie.
   3. Czy możesz utworzyć wiele obiektów klasy Car? Jeśli tak, jak każdy obiekt przechowuje swoje własne atrybuty?
-
+     Tak
 
 
